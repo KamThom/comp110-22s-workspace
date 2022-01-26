@@ -1,33 +1,40 @@
-"""Objects and Data Types"""
-    int = Interger 
-        Whole numbers
-        You use "_" instead of "," for 1_000_000
-    float = Floating-point
-        Decimal numbers that are as percise as we need them to be but not for banking and such
-    str = Stings of characters
-        This is fr characters, both letter based and special like {!@#$()} 
-        They need to start and end with "Quotes"
-            If you need "Quotes" withen your string "this is a bit complicated" you need to add back slash print("\"this is a bit complicated\"") 
-                (the backslashes are leading)
-        Any number can be a sting if inside "Quotes"
-        Two string vales with the + between will bond them together
-            "abc" + "def" = 'abcdef'
-        len = length 
-            tells you the length of a string
-            len("pizza") = 5 
-            you can also pick out a character from a string by adding a number to the end
-                "pizza"[1] = 'i'
-            if added to "len" then you can do the same thing
-                "pizza"[len("Pizza") - 4] = 'i'
-                    starting with "pizza" will print the character, starting without the string will print a number
-        The first itme in a sequence will index at '0'
-        "Integers and floating-point values are not sequences, they are singular numerical values. Thus, you cannot subscript them like a str"
-    bool = Booleans
-        These are True False indicators and/or deciders
-            100 < 200 = False
-            300 > 258 = True
+"""Class Notes"""
 
+int = Interger 
+    Whole numbers
+    You use "_" instead of "," for 1_000_000
+float = Floating-point
+    Decimal numbers that are as percise as we need them to be but not for banking and such
+str = Stings of characters
+    This is fr characters, both letter based and special like {!@#$()} 
+    They need to start and end with "Quotes"
+        If you need "Quotes" withen your string "this is a bit complicated" you need to add back slash print("\"this is a bit complicated\"") 
+            (the backslashes are leading)
+    Any number can be a sting if inside "Quotes"
+    Two string vales with the + between will bond them together
+        "abc" + "def" = 'abcdef'
+    len = length 
+        tells you the length of a string
+        len("pizza") = 5 
+        you can also pick out a character from a string by adding a number to the end
+            "pizza"[1] = 'i'
+        if added to "len" then you can do the same thing
+            "pizza"[len("Pizza") - 4] = 'i'
+                starting with "pizza" will print the character, starting without the string will print a number
+    The first itme in a sequence will index at '0'
+    "Integers and floating-point values are not sequences, they are singular numerical values. Thus, you cannot subscript them like a str"
+bool = Booleans
+    These are True False indicators and/or deciders
+        100 < 200 = False
+        300 > 258 = True
+not > and > or 
 
+\"  == Double quote (")
+\'	== Single quote (')
+\t	== Tab
+\n	== New Line
+\\	== Backslash (\)
+\Uxxxxxxxx	== 32-bit unicode character
 
 
 
