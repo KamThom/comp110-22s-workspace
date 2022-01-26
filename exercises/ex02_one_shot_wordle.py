@@ -1,6 +1,7 @@
 """EX02 - Basic Wordle-like Game"""
 __author__ = "730514879"
 # python -m exercises.ex02_one_shot_wordle
+# Rocinante
 
 
 cor_ans = str("python")
