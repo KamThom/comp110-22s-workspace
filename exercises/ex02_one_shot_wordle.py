@@ -4,17 +4,19 @@ __author__ = "730514879"
 # Rocinante
 
 
-cor_ans = str("python")
+cor_ans = str("knolol")
 cor_len = len(cor_ans)
 sub = cor_len
 var = str()
 yellow = cor_len
+guess_count = 6
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
 YELLOW_BOX: str = "\U0001F7E8"
 
 
 guess = str(input(f"What is your {cor_len}-letter guess? "))
+
 
 while len(guess) != cor_len:
     guess = str(input((f"That was not {cor_len} letters! Try again: ")))
@@ -60,8 +62,6 @@ while yellow >= 1:
     yellow_check = cor_len  # resets ellow check again just to be sure
 
 ###
-
-print(var)
 
 if guess == cor_ans:  # if guess == answer then do this. all at end of while loops for simplicity
     print("Woo! You got it!")

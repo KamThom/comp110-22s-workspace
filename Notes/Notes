@@ -36,6 +36,8 @@ not > and > or
 \\	== Backslash (\)
 \Uxxxxxxxx	== 32-bit unicode character
 
+return is a print and an exit
+
 
 
 
