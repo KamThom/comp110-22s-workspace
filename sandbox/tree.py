@@ -23,7 +23,7 @@ def tree(n, l):
     else:  # leaves
         right(90)
         n = cos(radians(heading() - 45)) / 4 + 0.5
-        pencolor(n, n*0.8, n*0.8)
+        pencolor(n, n * 0.8, n * 0.8)
         circle(3)
         left(90)
  
@@ -61,5 +61,5 @@ backward(100)
 left(90)  # Turn left 90 degrees
 pu()  # Lift the pen
 backward(300)  # backward 300
-tree(10, 100)  # Recursive 7 layers
+tree(12, 100)  # Recursive 7 layers
 done()

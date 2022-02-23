@@ -1,1 +1,2 @@
 python -m tools.submission exercises/ex00_hello_world.py
+python -m pytest lessons/ex05/util_test.py
