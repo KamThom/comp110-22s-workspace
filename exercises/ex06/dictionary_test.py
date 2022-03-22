@@ -42,14 +42,14 @@ def test_act_colors_favorite_color() -> None:
 
 def test_norm_count() -> None:
     """Tests normal peram of count."""
-    assert count(("a", "b", "b", "c", "a", "r", "g", "c")) == {'a': 2, 'b': 2, 'c': 2, 'r': 1, 'g': 1}
+    assert count(["a", "b", "b", "c", "a", "r", "g", "c"]) == {'a': 2, 'b': 2, 'c': 2, 'r': 1, 'g': 1}
 
 
 def test_words_count() -> None:
     """Tests words in count."""
-    assert count(("apple", "bird", "dog", "dog", "cat", "apple")) == {'apple': 2, 'bird': 1, 'dog': 2, 'cat': 1}
+    assert count(["apple", "bird", "dog", "dog", "cat", "apple"]) == {'apple': 2, 'bird': 1, 'dog': 2, 'cat': 1}
 
 
 def test_Uppercase_count() -> None:
     """Test to make sure uppercase is counted as seprate."""
-    assert count(("a", "b", "b", "c", "a", "r", "g", "A")) == {'a': 2, 'b': 2, 'c': 1, 'r': 1, 'g': 1, 'A': 1}
+    assert count(["a", "b", "b", "c", "a", "r", "g", "A"]) == {'a': 2, 'b': 2, 'c': 1, 'r': 1, 'g': 1, 'A': 1}

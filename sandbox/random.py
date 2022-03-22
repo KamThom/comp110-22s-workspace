@@ -1,18 +1,23 @@
+def search(book: list[str], key: str) -> list[str]:
+    record = []
 
-def repeat(word, rpt) -> str:
-    num = len(word)
-    char = word[len(word) - num]
-    z = ""
-    i = 0
-
-    while i < len(word):
-        a = char * rpt
-        z += a 
-        i += 1
-        num -= 1
-    
-    return z
+    for i in book:
+        x = i[len(i) - 1]
+        if x == key:
+            record.append(i)
+        
+    return record
 
 
-# from sandbox.random import repeat
-# repeat("tar", 3)
+# search(["apple", "bear", "gog", "ape"], ("e"))
+
+
+def search2(objects: list[str], letter: str) -> list[str]:
+    filtered: list[str] = []
+    for word in objects:
+        if word[len(word) - 1] == letter:
+            filtered.append(word)
+    return filtered
+
+
+print(search2(['apple', 'banana', 'orange'], 'e'))
