@@ -41,6 +41,8 @@ return is a print and an exit
 and = False
 or = True
 
+cmd + / == #
+
 
 
 
